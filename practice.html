@@ -50,13 +50,13 @@
 
     <section class="probootstrap-section">
       <script>
-        english = ["father", "mother", "sister", "brother", "inferior", "idiot", "angry", "hurry", "idiotic", "morning", "evening", "lunch", "sun", "edible", "not", "poison", "tyrant", "draconian", "cruel", "corrupt", "defile", "good", "dwells", "darkness", "within", "evil", "incompetent", "i", "attack"]
-        latin = ["pater", "mater", "soror", "frater", "improbus", "idiota", "iratus", "festino", "bardus", "oriens", "vesper", "prandium", "sol", "edulis", "non", "venenum", "tyrannus", "draconis", "barbarus", "vitiosus", "maculo", "bonus", "habito", "obscurum", "intus", "pravus", "iners", "ego", "impetus"]
+        english = ["father", "mother", "sister", "brother", "inferior", "idiot", "angry", "hurry", "idiotic", "morning", "evening", "lunch", "sun", "edible", "not", "poison", "tyrant", "draconian", "cruel", "corrupt", "defile", "good", "dwells", "darkness", "within", "evil", "incompetent", "i", "attack", "hungry", "food", "give"]
+        latin = ["pater", "mater", "soror", "frater", "improbus", "idiota", "iratus", "festino", "bardus", "oriens", "vesper", "prandium", "sol", "edulis", "non", "venenum", "tyrannus", "draconis", "barbarus", "vitiosus", "maculo", "bonus", "habito", "obscurum", "intus", "pravus", "iners", "ego", "impetus", "ieiunus", "victus", "donare"]
         var count = 0
         var correct = 0
         var incorrect = 0
         var temp = ""
-        while (count < 29) {
+        while (count < 32) {
           temp = window.prompt("What is the latin for " + english[count])
           if (temp == latin[count]) {
             window.alert("Correct")
